@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="home-section">
+    <div class="hero">
+        <h1>Welcome to Parkinson Detector</h1>
+        <p>This AI-powered tool helps detect signs of Parkinson’s Disease from MRI scans.</p>
+        <form action="{{ url_for('upload') }}" method="GET">
+            <button type="submit" class="cta-button">Upload MRI</button>
+        </form>
+    </div>
+
+    <div class="features">
+        <h2>About Parkinson’s Disease</h2>
+        <p>Parkinson's Disease is a neurodegenerative disorder that primarily affects movement. Early detection is crucial in managing and slowing the progression of symptoms. Our tool uses MRI imaging and AI to support clinicians in diagnosis.</p>
+    </div>
+</section>
+{% endblock %}

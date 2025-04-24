@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="upload-section">
+    <h2>Upload MRI Scan</h2>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <label class="custom-file-upload">
+            <input type="file" name="image" required>
+            📁 Choose File
+        </label>
+        <br>
+        <button type="submit">🧠 Predict</button>
+    </form>
+</section>
+{% endblock %}
