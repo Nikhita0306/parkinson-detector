@@ -1,1 +1,3 @@
 # parkinson-detector
+
+Developed a hybrid deep learning and machine learning model for “Biomedical Image Processing for Parkinson’s Disease Detection”, leveraging brain MRI scans. The pipeline involved image preprocessing (resizing, grayscale conversion, normalization, augmentation), feature extraction using ResNet50, and classification via Support Vector Machine (SVM). To address data imbalance, SMOTE was applied, which improved sensitivity and classification performance. Achieved a diagnostic accuracy of 97.59%, demonstrating potential for clinical deployment. For more details, please refer to the attached report.
